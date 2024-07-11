@@ -1,30 +1,57 @@
 body {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #dc0f83 ;
     text-align: center;
     text-decoration: underline;
 }
 
 h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #dc0f83 ;
     text-align: center;
+    margin-top: 30px;
 }
 
 .container {
+    border: 2px solid;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 100%;
 }
 
+form {
+    display: inline-block;
+    text-align: left;
+}
 label {
     color: #dc0f83;
     font-weight: bold;
     display: block;
+}
+
+.calc-btn {
+    display: block;
+    margin-top: 15px;
+    border: 2px solid;
+    border-radius: 15px;
+    width: 5rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+.calc-btn:hover {
+    background-color: rgb(195, 150, 189);
 }
 
 select {
@@ -32,4 +59,5 @@ select {
     border-radius: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
+    display: block;
 }

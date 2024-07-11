@@ -11,21 +11,21 @@
       <h1>APGAR Score Calculator</h1>
       <form action="">
         <label for="appearance">Appearance:</label>
-        <select name="" id="">
+        <select name="appearance" id="appearance">
           <option value="" disable selected>Please select</option>
           <option value="0">Blue-ish gray, pale skin</option>
           <option value="1">Pink body with blue hands and/or feet</option>
           <option value="2">Entire body is pink</option>
         </select>
         <label for="pulse">Pulse:</label>
-        <select name="" id="">
+        <select name="pulse" id="pulse">
           <option value="" disable selected>Please select</option>
           <option value="0">No pulse</option>
           <option value="1">< 100 beats per min</option>
           <option value="2">> or equal to 100 beats per min</option>
         </select>
         <label for="grimace">Grimace response:</label>
-        <select name="" id="">
+        <select name="grimace" id="grimace">
           <option value="" disable selected>Please select</option>
           <option value="0">Floppy/No response to stimulation</option>
           <option value="1">Grimace or weak cry when stimulated</option>
@@ -34,19 +34,20 @@
           </option>
         </select>
         <label for="activity">Activity:</label>
-        <select name="" id="">
+        <select name="activity" id="activity">
           <option value="" disable selected>Please select</option>
           <option value="0">No limb movement</option>
           <option value="1">Arms and legs flexed</option>
           <option value="2">Active movement</option>
         </select>
-        <label for="respiration">Respiration</label>
-        <select name="" id="">
+        <label for="respiration">Respiration:</label>
+        <select name="respiration" id="respiration">
           <option value="" disable selected>Please select</option>
           <option value="0">Absent</option>
           <option value="1">Slow, irregular breathing</option>
           <option value="2">Good, regular breathing and strong cry</option>
         </select>
+        <button type="button" class="calc-btn">Calculate</button>
       </form>
       <h2>APGAR Score:</h2>
     </div>
