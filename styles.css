@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(60, 60, 127);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,19 +16,18 @@ h1 {
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #dc0f83 ;
-    text-align: center;
     margin-top: 30px;
 }
 
 .container {
-    border: 2px solid;
-    border-radius: 10px;
+    border: 3px solid rgb(21, 20, 21);
+    border-radius: 7px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 600px;
 }
 
 form {
@@ -35,6 +35,7 @@ form {
     text-align: left;
 }
 label {
+    font-size: large;
     color: #dc0f83;
     font-weight: bold;
     display: block;
@@ -60,4 +61,8 @@ select {
     margin-top: 5px;
     margin-bottom: 5px;
     display: block;
+}
+
+.select-error {
+    border: 2px solid #ff0000;
 }
