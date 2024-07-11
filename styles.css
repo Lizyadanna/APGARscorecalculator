@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #dc0f83 ;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #dc0f83 ;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    color: #dc0f83;
+    font-weight: bold;
+    display: block;
+}
+
+select {
+    border: 2px solid;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
