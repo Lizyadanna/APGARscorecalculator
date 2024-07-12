@@ -21,6 +21,7 @@ calcButton.addEventListener('click', function() {
     const respiration = parseInt(apgarRespirationSelect.value);
 
 if (isNaN(appearance) || isNaN(pulse) || isNaN(grimace) || isNaN(activity) || isNaN(respiration)) {
+    showError();
     highlightInvalidSelects();
     return;
  }
@@ -48,4 +49,8 @@ function highlightInvalidSelects() {
     if (isNaN(parseInt(apgarRespirationSelect.value))) {
         apgarRespirationSelect.classList.add('select-error');
     }
+}
+
+function showError() {
+    alert('Please select all fields.');
 }
